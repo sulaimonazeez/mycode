@@ -1,0 +1,313 @@
+{% extends "learning.html" %}
+
+{% block title %} HTML Formatting{% endblock %}
+
+{% block menu %} 
+     <ul class="ul">
+     <li><a href="/code/html">HTML basic</a></li>
+     <li><a href="/code/html/attribute">HTML Attribute</a></li>
+     <li><a href="/code/html/element">HTML Element</a></li>
+     <li><a href="/code/html/formatting">HTML Formatting</a></li>
+     <li><a href="/code/html/heading">HTML Heading</a></li>
+     <li><a href="/code/html/paragraph">HTML Paragraph</a></li>
+     <li><a href="/code/html/phrase">HTML Phrase tag</a></li>
+     <li><a href="code/html/anchor">HTML Anchor</a></li>
+     <li><a href="/code/html/image">HTML Image</a></li>
+     <li><a href="/code/html/list">HTML List</a></li>
+     <li><a href="/code/html/order">HTML Order</a></li>
+     <li><a href="/code/html/unorder">HTML Unorder</a></li>
+     <li><a href="/code/html/list-describtion">HTML Describtion List</a></li>
+     <li><a href="/code/html/form">HTML form</a></li>
+     <li><a href="/code/html/form">HTML form</a></li>
+     <li><a href="/code/html/input">HTML Form input type</a></li>
+     <li><a href="/code/html/form-attribute">HTML Form Attribbute</a></li>
+     <li><a href="/code/html/class">HTML Class</a></li>
+     <li><a href="/code/html/id">HTML ID Attribute</a></li>
+     <li><a href="/code/html/iframe">HTML Iframe</a></li>
+     <li><a href="/code/html/js">HTML JavaScript</a></li>
+     <li><a href="/code/html/comment">HTML Comment</a></li>
+     <li><a href="/code/html/file">HTML File Path</a></li>
+     <li><a href="/code/html/head">HTML Head</a></li>
+     <li><a href="/code/html/layout">HTML Layout</a></li>
+     <li><a href="/code/html/Layout-tech">HTML Layout Technique</a></li>
+     <li><a href="/code/html/response">HTML Response</a></li>
+     <li><a href="/code/html/computer">HTML Response</a></li>
+     <li><a href="/code/html/code">HTML Computer Code</a></li>
+     <li><a href="/code/html/entitie">HTML Entitie</a></li>
+     <li><a href="/code/html/symbol">HTML Symbol</a></li>
+     <li><a href="/code/html/charset">HTML Charset</a></li>
+     <li><a href="/code/html/urlencode">HTML URL Encode</a></li>
+     <hr>
+     <h3>Learn New skills</h3>
+     <li><a href="/code/python">Learn Python</a></li>
+     <li><a href="/code/js">Learn js</a></li>
+     <li><a href="/code/css">CSS</a></li>
+   </ul>
+{% endblock %}
+
+{% block content %}
+   <div class="mt-5 container-fluid">
+     <div class="mt-5 d-flex justify-content-between">
+       <a class="btn btn-primary p-3"href="/code/html/element">Prevous</a>
+       <a class="btn btn-primary p-3 " href="/code/html/heading">Next</a>
+     </div>
+     <h1 class="mt-5">HTML Formatting</h1>
+     <p class="mt-3">
+       <strong class="fs-1">HTML Formatting</strong>is a process of format text without using CSS. There are many formatting tags in HTML. These tags are used to make text bold, italicized or underline. There are almost 14 options available that how text appear in HTML and XHTML.
+     </p>
+     <p>
+       In HTML the formatting tags are divided into two categories
+     </p>
+     <ul>
+       <li>Physical tags: These tags are used to provide the visual appearance to the text.</li>
+       <li>Logical tag: These tags are used to add some logical or sementic value to the text </li>
+     </ul>
+     <div class="p-2 text-light bg-dark rounded">
+       <strong>Note: </strong>There are some physical and logical tags which may give same visual appearance, but they will be different in semantics.
+     </div>
+     <p class="mt-3">
+       Here, we are going to learn 14 HTML formatting tags. Following is thr list of HTML formattig text.
+     </p>
+     <table class="border border-striped table striped table-striped">
+       <thead class="border">
+         <tr class="border">
+           <th>Element name</th>
+           <th>Description</th>
+         </tr>
+       </thead>
+       <tbody class="border">
+         <tr class="border">
+           <td> < b ></td>
+           <td>
+             this is a physical tag, which is used ti bold the text written between it
+           </td>
+         </tr>
+         <tr>
+           <td> < strong ></td>
+           <td>This is a logical tag which tell the browser that the text is important</td>
+         </tr>
+         <tr>
+           <td> < i > </td>
+           <td>
+             This is a Physical tag which is used to make text italic.
+           </td>
+         </tr>
+         <tr>
+           <td> < em > </td>
+           <td>This is a logical tag which used to display content in italic</td>
+         </tr>
+         <tr>
+           <td> < mark > </td>
+           <td>
+             This tag is used to highlight text.
+           </td>
+         </tr>
+         <tr>
+           <td> < u ></td>
+           <td>This tag is used to underline text writtent between it.</td>
+         </tr>
+         <tr>
+           <td> < tt ></td>
+           <td>This tag is used to appear a text in teletype. (Not supported in HTML5) </td>
+         </tr>
+         <tr>
+           <td> < strike > </td>
+           <td>
+             This tag is used to draw a strikethrough on a section of text. (Not supported in HTML5
+           </td>
+         </tr>
+         <tr>
+           <td>
+             < sup >
+           </td>
+           <td>it display the content slighly above the normal line.</td>
+         </tr>
+         <tr>
+           <td> < del ></td>
+           <td>
+             This tag is used to display the deleted content.
+           </td>
+         </tr>
+         <tr>
+           <td> < ins ></td>
+           <td>This tag display the content which is added</td>
+         </tr>
+         <tr>
+           <td> < big > </td>
+           <td>
+             This tag is used to increase the font size by one conventional unit.
+           </td>
+         </tr>
+         <tr>
+           <td>
+             < small >
+           </td>
+           <td>This tag is used to decrease the font size by one unit from base font size.</td>
+         </tr>
+       </tbody>
+     </table>
+     <h2 class="mt-5 mb-5">1) Bold Text</h2>
+     <p>HTML < b > and < strong > formattig elements.</p>
+     <p>
+       The HTML < b > element is a Physical tag which display text in bold font, without any logical importance. If you write anything within < b > .... </ b > element, is shown in bold letter.
+     </p>
+     <p>See this example</p>
+     <textarea style="height:auto" id="code1" disabled="" class="mt-5"><p><b>Write your first Paragraph in bold text</b></p></textarea>
+     <h2 class="mt-3">Output:</h2>
+     <div id="output1" class="border rounded"></div>
+     <p class="mt-4">
+       The HTML < strong > tag is a logical tag, which displays the content in bold font and inform the browser about it logical importance. if you write anything between < strong > ????? </ strong >, is shown in important text.
+     </p>
+     <p>See example</p>
+     <textarea class="mt-5" disabled="" id="code2"><!Doctype html>
+     <html lang="en">
+       <head>
+         <title>HTML Formatting</title>
+       </head>
+       <body>
+         <h1>Explanation of formatting element</h1>
+         <p><strong>This is important content</strong></p>
+       </body>
+     </html>
+     </textarea>
+     <h2>Output:</h2>
+     <div id="output2" class="rounded border">
+       
+     </div>
+     <h2 class="mt-5 mb-5">2) Italic Text</h2>
+     <h4 class="mb-5">HTML < i > and < em > formatting elements</h4>
+     <p class="mt-3">
+       The HTML < i > element is physical element, which display the enclosed content in italic font without any added importance. If you write anything within < i > ... </ i > elements, is shown italic letters.
+     </p>
+     <textarea id="code3" style="height: auto" class="mt-3" disabled=""><p><i>Write your first italic conventional</i></p>
+     </textarea>
+     <h2>Output:</h2>
+     <div class="border rounded" id="output3"></div>
+     <p class="mt-5">
+       The HTML < em > tag is a logical element, which display the enclosed content in italic font with added semantics importance.
+     </p>
+     <p><b>See this example</b></p>
+     <textarea id="code4" style="height: auto" disabled="" class="mt-4"><p><em>This is an important content</em></p>
+     </textarea>
+     <h2>Output:</h2>
+     <div id="output4" class="border rounded">
+     </div>
+     <h2 class="mt-5 mb-5">3) HTML Marked Formatting</h2>
+     <p>If you want to mark or highlight a text, you should write the content within < mark > ... </ mark >.</p>
+     <textarea style="height: auto" id="code5" disabled="" class="mt-5"><h4>I wanna put <mark>mark </mark>on your face </h4>
+     </textarea>
+     <h2>Output:</h2>
+     <div id="output5" class="rounded border"></div>
+     <h2 class="mt-5 mb-5">4) Underline Text</h2>
+     <p>
+     If you write anything within < u > ... </ u > element, is shown in underline text.
+     </p>
+     <p>See this example</p>
+     <textarea style="height: auto" id="code6" disabled="" class="mt-5 mb-2"><p>Hello <u>Write your first Paragraph</u></p></textarea>
+     <h2>Output:</h2>
+     <div id="output6"class="border rounded"></div>
+     <h2 class="mt-5 mb-5">Strike Text</h2>
+     <p>Anything written within < strike > .... </ strike > element is display with strikethrough. Its a thin line which cross the statement.</p>
+     <p>See this example</p>
+     <textarea style="height: auto" id="code7" disabled="" class="mt-5 mb-3"><p>Hello <strike>Write your first paragraph</strike></p></textarea>
+     <h2>Output:</h2>
+     <div id="output7" class="rounded border"></div>
+      <h2 class="mt-5 mb-5">Monospaced Font</h2>
+     <p>If you want that each letter has the same width then you should write then content within < tt > ... </ tt ></p>
+     <p>
+       Note: We know that most of the fonts are known as variable-width font because different letters have different width. (for example: 'w' is wider than 'i'). Monospaced provide similar space among every letter.
+     </p>
+     <p>See this example</p>
+     <textarea style="height: auto" id="code8" disabled="" class="mt-5 mb-3"><p>Hello <tt>Write your first paragraph</tt></p></textarea>
+     <h2>Output:</h2>
+     <div id="output8" class="rounded border"></div>
+           <h2 class="mt-5 mb-5">Superscript Text</h2>
+     <p>If you put content within < sup > ... </ sup > element, is shown in Superscript; means it is display half a character's height above the other characters. </p>
+     <p>
+       See this Example
+     </p>
+     <p>See this example</p>
+     <textarea style="height: auto" id="code9" disabled="" class="mt-5 mb-3"><p>Hello <sup>Write your first paragraph</sup></p></textarea>
+     <h2>Output:</h2>
+     <div id="output9" class="rounded border"></div>
+       <h2 class="mt-5 mb-5">Subscript Text</h2>
+     <p>If you put content within < sub > ... </ sub > element, is shown in Superscript; means it is display half a character's height below the other characters. </p>
+     <p>
+       See this Example
+     </p>
+     <p>See this example</p>
+     <textarea style="height: auto" id="code10" disabled="" class="mt-5 mb-3"><p>Hello <sub>Write your first paragraph</su></p></textarea>
+     <h2>Output:</h2>
+     <div id="output10" class="rounded border"></div>
+      <h2 class="mt-5 mb-5">Deleted Text</h2>
+     <p>If you put content within < del > ... </ del > is displayed as deleted text. </p>
+     <p>
+       See this Example
+     </p>
+     <p>See this example</p>
+     <textarea style="height: auto" id="code11" disabled="" class="mt-5 mb-3"><p>Hello <del>Deleted Text</del></p></textarea>
+     <h2>Output:</h2>
+     <div id="output11" class="rounded border"></div>
+       <h2 class="mt-5 mb-5">Subscript Text</h2>
+     <p>If you put content within < sub > ... </ sub > element, is shown in Superscript; means it is display half a character's height below the other characters. </p>
+     <p>
+       See this Example
+     </p>
+     <p>See this example</p>
+     <textarea style="height: auto" id="code12" disabled="" class="mt-5 mb-3"><p>Hello <sub>Write your first paragraph</su></p></textarea>
+     <h2>Output:</h2>
+     <div id="output12" class="rounded border"></div>
+      <h2 class="mt-5 mb-5">Larger Text</h2>
+     <p>If you want to put your font size larger than the rest of the text them put the content within < big > ... </ big >. It increase one font size larger than the previous.</p>
+     <p>
+       See this Example
+     </p>
+     <p>See this example</p>
+     <textarea style="height: auto" id="code13" disabled="" class="mt-5 mb-3"><p>Hello <big>Big Text</big></p></textarea>
+     <h2>Output:</h2>
+     <div id="output13" class="rounded border"></div>
+           <h2 class="mt-5 mb-5">Smaller Text</h2>
+     <p>If you want to put your font size smaller than the rest of the text them put the content within < small > ... </ small >. It reduce one font size than the previous.</p>
+     <p>
+       See this Example
+     </p>
+     <p>See this example</p>
+     <textarea style="height: auto" id="code14" disabled="" class="mt-5 mb-3"><p>Hello <small>Small Text</small></p></textarea>
+     <h2>Output:</h2>
+     <div id="output14" class="rounded border"></div>
+      <div class="mt-5 d-flex justify-content-between">
+       <a class="btn btn-primary p-3"href="/code/html/element">Prevous</a>
+       <a class="btn btn-primary p-3 " href="/code/html/heading">Next</a>
+     </div>
+     </div>
+   <script>
+     let code1 = document.getElementById("code1").value;
+     document.getElementById("output1").innerHTML = code1;
+     let code2 = document.getElementById("code2").value;
+     document.getElementById("output2").innerHTML = code2;
+     let code3 = document.getElementById("code3").value;
+     document.getElementById("output3").innerHTML = code3;
+     let code4 = document.getElementById("code4").value;
+     document.getElementById("output4").innerHTML = code4;
+     let code5 = document.getElementById("code5").value;
+     document.getElementById("output5").innerHTML = code5;
+     let code6 = document.getElementById("code6").value;
+     document.getElementById("output6").innerHTML = code6;
+     let code7 = document.getElementById("code7").value;
+     document.getElementById("output7").innerHTML = code7;
+     let code8 = document.getElementById("code8").value;
+     document.getElementById("output8").innerHTML = code8;
+     let code9 = document.getElementById("code9").value;
+     document.getElementById("output9").innerHTML = code9;
+     let code10= document.getElementById("code10").value;
+     document.getElementById("output10").innerHTML = code10;
+     let code11 = document.getElementById("code11").value;
+     document.getElementById("output11").innerHTML = code11;
+     let code12 = document.getElementById("code12").value;
+     document.getElementById("output12").innerHTML = code12;
+     let code13 = document.getElementById("code13").value;
+     document.getElementById("output13").innerHTML = code13;
+     let code14 = document.getElementById("code14").value;
+     document.getElementById("output14").innerHTML = code14;
+   </script>
+{% endblock %}

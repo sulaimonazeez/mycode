@@ -1,0 +1,182 @@
+{% extends "learning.html" %}
+
+{% block title %} HTML Phrase {% endblock %}
+{% block menu %} 
+      <ul class="ul">
+     <li><a href="/code/html">HTML basic</a></li>
+     <li><a href="/code/html/attribute">HTML Attribute</a></li>
+     <li><a href="/code/html/element">HTML Element</a></li>
+     <li><a href="/code/html/formatting">HTML Formatting</a></li>
+     <li><a href="/code/html/heading">HTML Heading</a></li>
+     <li><a href="/code/html/paragraph">HTML Paragraph</a></li>
+     <li><a href="/code/html/phrase">HTML Phrase tag</a></li>
+     <li><a href="code/html/anchor">HTML Anchor</a></li>
+     <li><a href="/code/html/image">HTML Image</a></li>
+     <li><a href="/code/html/list">HTML List</a></li>
+     <li><a href="/code/html/order">HTML Order</a></li>
+     <li><a href="/code/html/unorder">HTML Unorder</a></li>
+     <li><a href="/code/html/list-describtion">HTML Describtion List</a></li>
+     <li><a href="/code/html/form">HTML form</a></li>
+     <li><a href="/code/html/form">HTML form</a></li>
+     <li><a href="/code/html/input">HTML Form input type</a></li>
+     <li><a href="/code/html/form-attribute">HTML Form Attribbute</a></li>
+     <li><a href="/code/html/class">HTML Class</a></li>
+     <li><a href="/code/html/id">HTML ID Attribute</a></li>
+     <li><a href="/code/html/iframe">HTML Iframe</a></li>
+     <li><a href="/code/html/js">HTML JavaScript</a></li>
+     <li><a href="/code/html/comment">HTML Comment</a></li>
+     <li><a href="/code/html/file">HTML File Path</a></li>
+     <li><a href="/code/html/head">HTML Head</a></li>
+     <li><a href="/code/html/layout">HTML Layout</a></li>
+     <li><a href="/code/html/Layout-tech">HTML Layout Technique</a></li>
+     <li><a href="/code/html/response">HTML Response</a></li>
+     <li><a href="/code/html/computer">HTML Response</a></li>
+     <li><a href="/code/html/code">HTML Computer Code</a></li>
+     <li><a href="/code/html/entitie">HTML Entitie</a></li>
+     <li><a href="/code/html/symbol">HTML Symbol</a></li>
+     <li><a href="/code/html/charset">HTML Charset</a></li>
+     <li><a href="/code/html/urlencode">HTML URL Encode</a></li>
+     <hr>
+     <h3>Learn New skills</h3>
+     <li><a href="/code/python">Learn Python</a></li>
+     <li><a href="/code/js">Learn js</a></li>
+     <li><a href="/code/css">CSS</a></li>
+   </ul>
+{% endblock %}
+{% block content %} 
+   <div class="mt-5 container-fluid">
+          <div class="mt-5 d-flex justify-content-between">
+       <a class="p-3 btn btn-primary" href="/code/html/paragraph">Previous</a>
+       <a class="p-3 btn btn-primary" href="/code/html/anchor">Next</a>
+     </div>
+     <h1 class="mt-5 mb-5">HTML Phrase</h1>
+     <p class="mt-2">
+       The HTML phrase tag are special purpose tags, which define the structural meaning of a block of text or semantics of text. Following is the list of phrase tags some of which we have alreary discussed in HTML Formatting.
+     </p>
+     <ul class="mt-3">
+       <li>Abbreviation tag: < abbr ></li>
+       <li>Acronym tags: < acronym > (not supported in HTML5)</li>
+       <li>Marked tag < mark > </li>
+       <li>strong tag: < strong ></li>
+       <li>Emphasized tag: < em ></li>
+       <li>definition tag: < dfn ></li>
+       <li>Quoting tag: < blockquote ></li>
+       <li>Short quote tag: < q ></li>
+       <li>Code tag < code ></li>
+       <li>keyboard tag: < kbd ></li>
+       <li>Address tag: < address ></li>
+     </ul>
+     <h2 class="mb-5 mt-3">1. Text Abbreviation tag </h2>
+     <p>
+       This tag is used to abbreviate a text. To abbreviate a text, write text between < abbr > and </ abbr > tag .</abbr>
+     </p>
+     <h2 class="mt-5">Example</h2>
+     <textarea id="code1" style="height: auto"><p>An <abbr title="Hypertext Markup langiage">HTML</abbr>is used to create website.</p></textarea>
+     <h2>Ouput: </h2>
+     <div id="output1" class="rounded border"></div>
+     <h2 class="mb-5 mt-3">2. Marked tag</h2>
+     <p>
+       The content written between < mark > and < / mark > tag will show as yellow mark on browser This tag is used to highlight a particular text.
+     </p>
+     <h2 class="mt-5">Example</h2>
+     <textarea id="code2" style="height: auto"><p>This tag will <mark>highlight</mark></p></textarea>
+     <h2>Ouput: </h2>
+     <div id="output2" class="rounded border"></div>
+      <h2 class="mb-5 mt-3">3. strong text</h2>
+     <p>
+       This tag is used to displag the important text of the content. The text written between < strong > and < / strong > will be displayed as important text.
+     </p>
+     <h2 class="mt-5">Example</h2>
+     <textarea id="code3" style="height: auto"><p>in HTML it is recommend to use <strong>Strong tag</strong></p></textarea>
+     <h2>Ouput: </h2>
+     <div id="output3" class="rounded border"></div>
+      <h2 class="mb-5 mt-3">4. Emphasized tag</h2>
+     <p>
+       This tag is used to emphasized the text and display the text in italic form. The text written between < em > and < / em > tag will italicized the text.
+     </p>
+     <h2 class="mt-5">Example</h2>
+     <textarea id="code4" style="height: auto"><p>HTML is an <em>easy</em>to learn language</p></textarea>
+     <h2>Ouput: </h2>
+     <div id="output4" class="rounded border"></div>
+      <h2 class="mb-5 mt-3">5. definition tag</h2>
+     <p>
+       When you use the < dfn > and < / dfn > tags, it allow specify the keyword of the content. Following is the example to show how to definition element.
+     </p>
+     <h2 class="mt-5">Example</h2>
+     <textarea id="code5" style="height: auto"><p><dfn>HTML</dfn>is a markup language</p></textarea>
+     <h2>Ouput: </h2>
+     <div id="output5" class="rounded border"></div>
+   <h2 class="mb-5 mt-3">6. Quoting tag</h2>
+     <p>
+       The HTML < blockquote > element show that the enclosed content is quoted from another source. The Source URL can be given using the cite attribute, and text representation of source can display using < cite > ... < / cite > element.
+     </p>
+     <h2 class="mt-5">Example</h2>
+     <textarea id="code6" style="height: auto"><blockquote cite="https://www.keepinspiring.me/famous-quotes/"><p>?The first step toward success is taken when you refuse to be a captive of the environment in which you first find yourself.?</p></blockquote>   
+ <cite>-Mark Caine</cite></textarea>
+     <h2>Ouput: </h2>
+     <div id="output6" class="rounded border"></div>
+      <h2 class="mb-5 mt-3">7. Short Quotation</h2>
+     <p>
+       An HTML < q > ... < / q > element define a short quotation. If you will put any content between < q > ... < / q >, then it will enclosed the text in double quotes.
+     </p>
+     <h2 class="mt-5">Example</h2>
+     <textarea id="code7" style="height: auto"><p>Steve Jobs said: <q>If You Are Working On Something That You Really Care About, You Don?t Have To Be Pushed. The Vision Pulls You.</q>?</p></textarea>
+     <h2>Ouput: </h2>
+     <div id="output7" class="rounded border"></div>
+      <h2 class="mb-5 mt-3">8. Code tags</h2>
+     <p>
+       The HTML < code > < / code > element is used to display the part of computer code. It will display the content in monospaced font.
+     </p>
+     <h2 class="mt-5">Example</h2>
+     <textarea id="code8" style="height: auto"><p>First Java program</p>  
+      <p><code>class Simple{ public static void main(String args[]){   
+       System.out.println("Hello Java"); }} </code>  
+     </p> </textarea>
+     <h2>Ouput: </h2>
+     <div id="output8" class="rounded border"></div>
+      <h2 class="mb-5 mt-3">9. Keyboard Tag</h2>
+     <p>
+       In HTML the keyboard tag < kbd >, indicates that a section of content is a user input from keyboard.
+     </p>
+     <h2 class="mt-5">Example</h2>
+     <textarea id="code9" style="height: auto"><p>Please press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + t<kbd></kbd> to restore page on chrome.</p>  </textarea>
+     <h2>Ouput: </h2>
+     <div id="output9" class="rounded border"></div>
+     <h2 class="mb-5 mt-3">10. Address tag</h2>
+     <p>
+       An HTML < address > tag define the contact information about the author of the content. The content written between < address > and < / address > tag, then it will be displayed in italic font.
+     </p>
+     <h2 class="mt-5">Example</h2>
+     <textarea id="code10" style="height: auto"><p><address> You can ask your queries by contact us on <a href="">example123@newdomain.com</a>  
+   <br> You can also visit at: <br>58 S. Garfield Street. Villa Rica, GA 30187.  
+  </address></textarea>
+     <h2>Ouput: </h2>
+     <div id="output10" class="rounded border"></div>
+     <div class="mt-5 d-flex justify-content-between">
+       <a class="p-3 btn btn-primary" href="/code/html/paragraph">Previous</a>
+       <a class="p-3 btn btn-primary" href="/code/html/anchor">Next</a>
+     </div>
+   </div>
+   <script>
+     let code1 = document.getElementById("code1").value;
+     document.getElementById("output1").innerHTML = code1;
+     let code2 = document.getElementById("code2").value;
+     document.getElementById("output2").innerHTML = code2;
+     let code3 = document.getElementById("code3").value;
+     document.getElementById("output3").innerHTML = code3;
+     let code4 = document.getElementById("code4").value;
+     document.getElementById("output4").innerHTML = code4;
+     let code5 = document.getElementById("code5").value;
+     document.getElementById("output5").innerHTML = code5;
+     let code6 = document.getElementById("code6").value;
+     document.getElementById("output6").innerHTML = code6;
+     let code7 = document.getElementById("code7").value;
+     document.getElementById("output7").innerHTML = code7;
+     let code8 = document.getElementById("code8").value;
+     document.getElementById("output8").innerHTML = code8;
+     let code9 = document.getElementById("code9").value;
+     document.getElementById("output9").innerHTML = code9;
+     let code10 = document.getElementById("code10").value;
+     document.getElementById("output10").innerHTML = code10;
+   </script>
+{% endblock %}
